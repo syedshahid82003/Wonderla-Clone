@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wonderla Registration</title>
+  <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+  <main class="registration-page">
+    <section class="registration-card">
+      <div class="brand">
+        <img src="./wonderla_logo_.png" alt="Wonderla logo">
+        <h1>Create Account</h1>
+        <p>Join Wonderla and start your adventure.</p>
+      </div>
+
+      <form class="registration-form" onsubmit="registerUser(event)">
+        <div class="form-group">
+          <label for="reg-username">Username</label>
+          <input type="text" id="reg-username" name="username" placeholder="Enter your username" required>
+        </div>
+
+        <div class="form-group">
+          <label for="reg-email">Email Address</label>
+          <input type="email" id="reg-email" name="email" placeholder="Enter your email address" required>
+        </div>
+
+        <div class="form-group">
+          <label for="reg-phone">Phone Number</label>
+          <input type="tel" id="reg-phone" name="phone" placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="reg-password">Password</label>
+          <input type="password" id="reg-password" name="password" placeholder="Enter your password" required>
+        </div>
+           <span id = "reg-error" class="error-msg"></span>
+        <button type="submit" class="signin-btn" >SIGN IN</button>
+        <a href="./index.html" class="login-btn">ALREADY EXISTS? LOGIN</a>
+      </form>
+    </section>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
