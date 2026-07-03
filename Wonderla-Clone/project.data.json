@@ -1,0 +1,1597 @@
+{
+  "project": {
+    "name": "Wonderla Clone",
+    "logo": "./wonderla_logo_.png",
+    "pages": {
+      "home": "./index6.html",
+      "login": "./index.html",
+      "registration": "./registration.html",
+      "offers": "./index2.html",
+      "rides": "./index3.html",
+      "restaurants": "./index4.html",
+      "events": "./index5.html",
+      "booking": "./index7.html",
+      "restaurantDetails": "./index8.html"
+    }
+  },
+  "navigation": {
+    "parks": [
+      {
+        "name": "Kochi",
+        "image": "https://d22pimhl2qmbj7.cloudfront.net/public/Kochi_cb42a7a748_3d2d5912c4.webp?w=96&q=75"
+      },
+      {
+        "name": "Bengaluru",
+        "image": "https://d22pimhl2qmbj7.cloudfront.net/public/Bangalore_a29cdf2e2c_dd51c380ad.webp?w=96&q=75"
+      },
+      {
+        "name": "Hyderabad",
+        "image": "https://d22pimhl2qmbj7.cloudfront.net/public/Hyderabad_44ee040feb_30635eba9c.webp?w=96&q=75"
+      },
+      {
+        "name": "Chennai",
+        "image": "https://d22pimhl2qmbj7.cloudfront.net/public/Chennai_Cropped_result_84209cd017.webp?w=96&q=75"
+      },
+      {
+        "name": "Bhubaneswar",
+        "image": "https://d22pimhl2qmbj7.cloudfront.net/public/Chennai_Cropped_result_84209cd017.webp?w=96&q=75"
+      }
+    ],
+    "resorts": [
+      {
+        "name": "Resort",
+        "image": "./resot img.png"
+      },
+      {
+        "name": "The Isle",
+        "image": "https://www.wonderla.com/images/isle-resort.png?w=96&q=75"
+      }
+    ],
+    "quickLinks": [
+      {
+        "label": "Offers",
+        "icon": "./discount_star.png",
+        "href": "./index2.html"
+      },
+      {
+        "label": "Rides",
+        "icon": "./marker_02_e495ae7481.png",
+        "href": "./index3.html"
+      },
+      {
+        "label": "Restaurants",
+        "icon": "./Frame_12_ebee895750.png",
+        "href": "./index4.html"
+      },
+      {
+        "label": "Events",
+        "icon": "./Frame_13_c4d6212160.png",
+        "href": "./index5.html"
+      }
+    ]
+  },
+  "home": {
+    "hero": {
+      "title": "SUMMER JUST LEVELED UP!!",
+      "button": "Click For Majaa",
+      "video": "./wonderla-mainpage-video1.mp4"
+    },
+    "parkCards": [
+      {
+        "name": "Hyderabad",
+        "type": "Park",
+        "image": "./Hyderabad-mainpage1.png"
+      },
+      {
+        "name": "Bangalore",
+        "type": "Park",
+        "image": "./bangalore-mainpage2.png"
+      },
+      {
+        "name": "Chennai",
+        "type": "Resort + Park",
+        "image": "./chennai-mainpage3.png"
+      },
+      {
+        "name": "Kochi",
+        "type": "Park",
+        "image": "./kochi-mainpage4.png"
+      },
+      {
+        "name": "Bhubaneswar",
+        "type": "Park",
+        "image": "./bhubaneswar-mainpage5.png"
+      }
+    ],
+    "rideCategories": [
+      {
+        "name": "Land",
+        "count": "90 Rides"
+      },
+      {
+        "name": "Water",
+        "count": "69 Rides"
+      },
+      {
+        "name": "Kids",
+        "count": "43 Rides"
+      }
+    ],
+    "iconicRideVideos": [
+      {
+        "title": "Freestyler",
+        "location": "Chennai",
+        "video": "./rides-video1.mp4",
+        "button": "RIDE DETAILS"
+      },
+      {
+        "title": "Space Gun",
+        "location": "Kochi",
+        "video": "./rides-video2.mp4",
+        "button": "RIDE DETAILS"
+      },
+      {
+        "title": "Recoil",
+        "location": "Bengaluru",
+        "video": "./rides-video3.mp4",
+        "button": "RIDE DETAILS"
+      },
+      {
+        "title": "Hyperverse",
+        "location": "Hyderabad",
+        "video": "./rides-video4.mp4",
+        "button": "RIDE DETAILS"
+      }
+    ],
+    "stats": [
+      {
+        "count": "1",
+        "label": "Banquet Halls",
+        "image": "./icon-img1.webp"
+      },
+      {
+        "count": "2",
+        "label": "Food Courts",
+        "image": "./icon-img2.png"
+      },
+      {
+        "count": "3",
+        "label": "Lounge Bars",
+        "image": "./icon-img3.png"
+      },
+      {
+        "count": "4",
+        "label": "Resorts",
+        "image": "./icon-img4.png"
+      },
+      {
+        "count": "5",
+        "label": "Amusement Parks",
+        "image": "./icon-img5.png"
+      },
+      {
+        "count": "200+",
+        "label": "Rides",
+        "image": "./icon-img6.png"
+      }
+    ],
+    "offerPreviewImages": [
+      "./2nd-offer.png",
+      "./offer ramdan.png",
+      "./3rd-offer.png",
+      "./4th-offer.png"
+    ],
+    "isle": {
+      "eyebrow": "INTRODUCING",
+      "title": "ISLE BY WONDERLA",
+      "image": "./bc-image1.png",
+      "button": "EXPLORE THE ISLE"
+    },
+    "foodGallery": [
+      "./food-img1.png",
+      "./food-img2.png",
+      "./food-img3.png",
+      "./food-img4.png",
+      "./food-img5.png",
+      "./food-img6.png",
+      "./food-img7.png",
+      "./food-img8.png",
+      "./food-img9.png",
+      "./food-img10.png",
+      "./food-img11.png",
+      "./food-img12.png",
+      "./food-img13.png",
+      "./food-img14.png",
+      "./food-img15.png",
+      "./food-img16.png"
+    ],
+    "featuredRestaurantCards": [
+      {
+        "name": "Park View Restaurant",
+        "location": "Kochi",
+        "image": "./restaur-img15.png",
+        "button": "EXPLORE MENU"
+      },
+      {
+        "name": "Waves Restaurant",
+        "location": "Kochi",
+        "image": "./restaur-img13.png",
+        "button": "EXPLORE MENU"
+      },
+      {
+        "name": "Spice Garden",
+        "location": "Kochi",
+        "image": "./restaur-img10.png",
+        "button": "EXPLORE MENU"
+      },
+      {
+        "name": "Vintage Kitchen",
+        "location": "Kochi",
+        "image": "./restaur-img1.webp",
+        "button": "EXPLORE MENU"
+      }
+    ],
+    "merchCards": [
+      {
+        "name": "Unisex Costumes",
+        "image": "./bc-resimg1.png"
+      },
+      {
+        "name": "Kids Costumes",
+        "image": "./bc-resimg2.png"
+      },
+      {
+        "name": "Women Costumes",
+        "image": "./bc-resimg3.png"
+      },
+      {
+        "name": "Kids Swimwear",
+        "image": "./bc-resimg4.png"
+      },
+      {
+        "name": "Women Swimwear",
+        "image": "./bc-resimg5.png"
+      },
+      {
+        "name": "Unisex Swimwear",
+        "image": "./bc-resimg6.png"
+      }
+    ]
+  },
+ 
+  "offers": [
+    {
+      "id": "ramadan-special",
+      "title": "FESTIVE RAMADAN SPECIAL FROM 20TH TO 29TH MARCH!",
+      "image": "./offer ramdan.png",
+      "alt": "Ramadan Offer",
+      "price": 1049,
+      "meta": "Per Adult Entry",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai"],
+      "timerBadge": "Ends in 39:54:50",
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "summer-early-bird",
+      "title": "SUMMER EARLY BIRD LIMITED TICKETS LIVE NOW!",
+      "image": "./2nd-offer.png",
+      "alt": "Summer Early Bird",
+      "price": 899,
+      "meta": "Early Bird Ticket",
+      "locations": ["Bengaluru", "Kochi", "Bhubaneswar", "Chennai", "Hyderabad"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "bookingLink": "./index7.html",
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "majaa-offer",
+      "title": "SPECIAL MAJAA OFFER - VALID TILL 31ST MARCH!",
+      "image": "./3rd-offer.png",
+      "alt": "Majaa Offer",
+      "price": 1199,
+      "meta": "Combo Ticket + Meal",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Bhubaneswar", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "hall-ticket-student",
+      "title": "HALL TICKET = 35% OFF* FOR 10TH, 11TH & 12TH GRADE STUDENTS!",
+      "image": "./4th-offer.png",
+      "alt": "Hall Ticket Offer",
+      "price": 779,
+      "meta": "Student ID Required",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Bhubaneswar", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "birthday-bogo",
+      "title": "Birthday Offer Buy 1 Get 1 Free",
+      "image": "./5th-offer.png",
+      "alt": "Birthday Offer",
+      "price": 1299,
+      "meta": "Valid on Birthday Week",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "press-play",
+      "title": "Don't Pause. Press PLAY.",
+      "image": "./6th-offer.png",
+      "alt": "Press Play Offer",
+      "price": 999,
+      "meta": "Regular Park Entry",
+      "locations": ["Bengaluru"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "escape-mode",
+      "title": "Escape Mode On!",
+      "image": "./7th-offer.png",
+      "alt": "Escape Mode Offer",
+      "price": 1099,
+      "meta": "Weekend Special Pass",
+      "locations": ["Bengaluru"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "resort-stay",
+      "title": "2-Night Stay & Play at Wonderla Resort",
+      "image": "./8th-offer.png",
+      "alt": "Resort Stay Offer",
+      "price": 7499,
+      "meta": "Twin Sharing Room",
+      "locations": ["Bengaluru"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "monsoon-magic",
+      "title": "MONSOON MAGIC - SPLASH INTO SAVINGS!",
+      "image": "./2nd-offer.png",
+      "alt": "Monsoon Magic Offer",
+      "price": 949,
+      "meta": "Per Adult Entry",
+      "locations": ["Bengaluru", "Kochi", "Chennai"],
+      "timerBadge": "Ends in 72:10:00",
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "family-fiesta",
+      "title": "FAMILY FIESTA - 4 TICKETS, 1 LOW PRICE!",
+      "image": "./3rd-offer.png",
+      "alt": "Family Fiesta Offer",
+      "price": 3499,
+      "meta": "Family Pack of 4",
+      "locations": ["Bengaluru", "Hyderabad", "Kochi"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "college-fest-pass",
+      "title": "COLLEGE FEST PASS - GROUP DISCOUNT!",
+      "image": "./4th-offer.png",
+      "alt": "College Fest Offer",
+      "price": 699,
+      "meta": "Min 10 Students",
+      "locations": ["Bengaluru", "Hyderabad", "Bhubaneswar"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "night-carnival",
+      "title": "NIGHT CARNIVAL - LIGHTS, RIDES & MORE!",
+      "image": "./5th-offer.png",
+      "alt": "Night Carnival Offer",
+      "price": 1399,
+      "meta": "Evening Entry Pass",
+      "locations": ["Kochi", "Chennai"],
+      "timerBadge": "Ends in 18:30:00",
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "senior-citizen-special",
+      "title": "SENIOR CITIZEN SPECIAL - 25% OFF",
+      "image": "./6th-offer.png",
+      "alt": "Senior Citizen Offer",
+      "price": 749,
+      "meta": "Age 60+ ID Required",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "couple-combo",
+      "title": "COUPLE COMBO - RIDE TOGETHER, SAVE TOGETHER",
+      "image": "./7th-offer.png",
+      "alt": "Couple Combo Offer",
+      "price": 1899,
+      "meta": "2 Adult Tickets",
+      "locations": ["Bengaluru", "Hyderabad"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "weekday-saver",
+      "title": "WEEKDAY SAVER - MON TO FRI ONLY!",
+      "image": "./8th-offer.png",
+      "alt": "Weekday Saver Offer",
+      "price": 599,
+      "meta": "Valid Mon-Fri Only",
+      "locations": ["Bengaluru", "Kochi", "Chennai", "Hyderabad"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "annual-pass-gold",
+      "title": "ANNUAL GOLD PASS - UNLIMITED VISITS!",
+      "image": "./offer ramdan.png",
+      "alt": "Annual Gold Pass Offer",
+      "price": 4999,
+      "meta": "Valid 12 Months",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai", "Bhubaneswar"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "school-trip-bonanza",
+      "title": "SCHOOL TRIP BONANZA - BULK BOOKING DISCOUNT",
+      "image": "./2nd-offer.png",
+      "alt": "School Trip Offer",
+      "price": 499,
+      "meta": "Min 30 Students",
+      "locations": ["Bengaluru", "Hyderabad", "Kochi", "Bhubaneswar"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "corporate-outing",
+      "title": "CORPORATE OUTING PACKAGE - TEAM BONDING DEAL",
+      "image": "./3rd-offer.png",
+      "alt": "Corporate Outing Offer",
+      "price": 1599,
+      "meta": "Min 20 Employees",
+      "locations": ["Bengaluru", "Hyderabad", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "diwali-dhamaka",
+      "title": "DIWALI DHAMAKA - LIGHT UP YOUR HOLIDAYS!",
+      "image": "./4th-offer.png",
+      "alt": "Diwali Dhamaka Offer",
+      "price": 1149,
+      "meta": "Festive Special Entry",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai"],
+      "timerBadge": "Ends in 96:00:00",
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "new-year-blast",
+      "title": "NEW YEAR BLAST - RING IN THE FUN!",
+      "image": "./5th-offer.png",
+      "alt": "New Year Blast Offer",
+      "price": 1499,
+      "meta": "Dec 31st Special",
+      "locations": ["Bengaluru", "Kochi"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "water-park-special",
+      "title": "WATER PARK SPECIAL - SPLASH ALL DAY!",
+      "image": "./6th-offer.png",
+      "alt": "Water Park Special Offer",
+      "price": 849,
+      "meta": "Water Rides Only",
+      "locations": ["Bengaluru", "Kochi", "Chennai", "Hyderabad"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "land-rides-pass",
+      "title": "LAND RIDES PASS - THRILLS WITHOUT THE SPLASH",
+      "image": "./7th-offer.png",
+      "alt": "Land Rides Pass Offer",
+      "price": 799,
+      "meta": "Land Rides Only",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "kids-under-10",
+      "title": "KIDS UNDER 10 - FREE ENTRY WITH PAID ADULT",
+      "image": "./8th-offer.png",
+      "alt": "Kids Free Entry Offer",
+      "price": 0,
+      "meta": "Free with Adult Ticket",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai", "Bhubaneswar"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "vip-fast-pass",
+      "title": "VIP FAST PASS - SKIP THE LINES!",
+      "image": "./offer ramdan.png",
+      "alt": "VIP Fast Pass Offer",
+      "price": 1999,
+      "meta": "Priority Ride Access",
+      "locations": ["Bengaluru", "Hyderabad"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "anniversary-special",
+      "title": "ANNIVERSARY SPECIAL - CELEBRATE WITH US!",
+      "image": "./2nd-offer.png",
+      "alt": "Anniversary Special Offer",
+      "price": 1299,
+      "meta": "Valid on Anniversary Date",
+      "locations": ["Bengaluru", "Kochi", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "group-of-5-deal",
+      "title": "GROUP OF 5 DEAL - SQUAD GOALS!",
+      "image": "./3rd-offer.png",
+      "alt": "Group of 5 Offer",
+      "price": 4299,
+      "meta": "5 Adult Tickets",
+      "locations": ["Bengaluru", "Hyderabad", "Kochi"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "monthly-pass",
+      "title": "MONTHLY UNLIMITED PASS - VISIT ALL MONTH!",
+      "image": "./4th-offer.png",
+      "alt": "Monthly Pass Offer",
+      "price": 2499,
+      "meta": "Valid 30 Days",
+      "locations": ["Bengaluru", "Kochi"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "rainy-day-refund",
+      "title": "RAINY DAY GUARANTEE - FREE RESCHEDULE!",
+      "image": "./5th-offer.png",
+      "alt": "Rainy Day Guarantee Offer",
+      "price": 999,
+      "meta": "Free Reschedule on Rain",
+      "locations": ["Kochi", "Chennai", "Bhubaneswar"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "first-visit-discount",
+      "title": "FIRST VISIT DISCOUNT - WELCOME TO WONDERLA!",
+      "image": "./6th-offer.png",
+      "alt": "First Visit Discount Offer",
+      "price": 749,
+      "meta": "New Visitors Only",
+      "locations": ["Bengaluru", "Hyderabad", "Kochi", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "republic-day-special",
+      "title": "REPUBLIC DAY SPECIAL - PATRIOTIC SAVINGS!",
+      "image": "./7th-offer.png",
+      "alt": "Republic Day Special Offer",
+      "price": 1026,
+      "meta": "Jan 26th Special",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai"],
+      "timerBadge": "Ends in 24:00:00",
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "independence-day-special",
+      "title": "INDEPENDENCE DAY SPECIAL - FREEDOM TO PLAY!",
+      "image": "./8th-offer.png",
+      "alt": "Independence Day Offer",
+      "price": 815,
+      "meta": "Aug 15th Special",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai", "Bhubaneswar"],
+      "timerBadge": "Ends in 24:00:00",
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "honeymoon-package",
+      "title": "HONEYMOON PACKAGE - JUST MARRIED SPECIAL",
+      "image": "./offer ramdan.png",
+      "alt": "Honeymoon Package Offer",
+      "price": 8999,
+      "meta": "Resort Stay + Park Entry",
+      "locations": ["Bengaluru"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "thrill-seeker-bundle",
+      "title": "THRILL SEEKER BUNDLE - HIGH-INTENSITY RIDES PASS",
+      "image": "./2nd-offer.png",
+      "alt": "Thrill Seeker Bundle Offer",
+      "price": 1349,
+      "meta": "Premium Thrill Rides",
+      "locations": ["Bengaluru", "Hyderabad", "Kochi"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "easy-emi-pass",
+      "title": "EASY EMI PASS - PAY LATER, PLAY NOW!",
+      "image": "./3rd-offer.png",
+      "alt": "Easy EMI Pass Offer",
+      "price": 999,
+      "meta": "No Cost EMI Available",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "midweek-madness",
+      "title": "MIDWEEK MADNESS - WEDNESDAY SPECIAL ENTRY",
+      "image": "./4th-offer.png",
+      "alt": "Midweek Madness Offer",
+      "price": 649,
+      "meta": "Wednesday Only",
+      "locations": ["Kochi", "Chennai", "Bhubaneswar"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "online-only-deal",
+      "title": "ONLINE ONLY DEAL - EXTRA 10% OFF ON APP!",
+      "image": "./5th-offer.png",
+      "alt": "Online Only Deal Offer",
+      "price": 899,
+      "meta": "App Booking Required",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai", "Bhubaneswar"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "flash-sale-friday",
+      "title": "FLASH SALE FRIDAY - 6 HOURS ONLY!",
+      "image": "./6th-offer.png",
+      "alt": "Flash Sale Friday Offer",
+      "price": 699,
+      "meta": "Limited Time Only",
+      "locations": ["Bengaluru", "Hyderabad"],
+      "timerBadge": "Ends in 06:00:00",
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "club-membership",
+      "title": "WONDERLA CLUB MEMBERSHIP - EXCLUSIVE BENEFITS",
+      "image": "./7th-offer.png",
+      "alt": "Club Membership Offer",
+      "price": 5999,
+      "meta": "Annual Membership",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "festival-of-lights",
+      "title": "FESTIVAL OF LIGHTS - NIGHT ILLUMINATION SPECIAL",
+      "image": "./8th-offer.png",
+      "alt": "Festival of Lights Offer",
+      "price": 1199,
+      "meta": "Evening Light Show Included",
+      "locations": ["Bengaluru", "Kochi"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "summer-vacation-combo",
+      "title": "SUMMER VACATION COMBO - PARK + RESTAURANT DEAL",
+      "image": "./offer ramdan.png",
+      "alt": "Summer Vacation Combo Offer",
+      "price": 1599,
+      "meta": "Includes Meal Voucher",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "early-morning-entry",
+      "title": "EARLY MORNING ENTRY - BEAT THE CROWD!",
+      "image": "./2nd-offer.png",
+      "alt": "Early Morning Entry Offer",
+      "price": 649,
+      "meta": "Entry Before 10 AM",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "twin-park-pass",
+      "title": "TWIN PARK PASS - VISIT 2 LOCATIONS, 1 TICKET!",
+      "image": "./3rd-offer.png",
+      "alt": "Twin Park Pass Offer",
+      "price": 1799,
+      "meta": "Valid at 2 Parks",
+      "locations": ["Bengaluru", "Kochi"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "festive-combo-pack",
+      "title": "FESTIVE COMBO PACK - RIDES + FOOD + MERCH",
+      "image": "./4th-offer.png",
+      "alt": "Festive Combo Pack Offer",
+      "price": 1899,
+      "meta": "All-Inclusive Pack",
+      "locations": ["Bengaluru", "Hyderabad", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "teachers-day-special",
+      "title": "TEACHER'S DAY SPECIAL - HONORING EDUCATORS",
+      "image": "./5th-offer.png",
+      "alt": "Teacher's Day Offer",
+      "price": 749,
+      "meta": "Valid Teacher ID Required",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai", "Bhubaneswar"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "monsoon-water-fun",
+      "title": "MONSOON WATER FUN - RAIN OR SHINE PASS",
+      "image": "./6th-offer.png",
+      "alt": "Monsoon Water Fun Offer",
+      "price": 899,
+      "meta": "All Weather Pass",
+      "locations": ["Kochi", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "long-weekend-getaway",
+      "title": "LONG WEEKEND GETAWAY - 3 DAYS OF FUN!",
+      "image": "./7th-offer.png",
+      "alt": "Long Weekend Getaway Offer",
+      "price": 2999,
+      "meta": "3-Day Multi-Entry Pass",
+      "locations": ["Bengaluru", "Hyderabad"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "loyalty-rewards-deal",
+      "title": "LOYALTY REWARDS DEAL - RETURNING VISITORS OFFER",
+      "image": "./8th-offer.png",
+      "alt": "Loyalty Rewards Offer",
+      "price": 849,
+      "meta": "Returning Visitors Only",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai"],
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "clearance-sale-tickets",
+      "title": "CLEARANCE SALE - LAST MINUTE TICKETS!",
+      "image": "./offer ramdan.png",
+      "alt": "Clearance Sale Offer",
+      "price": 549,
+      "meta": "Today Only",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai", "Bhubaneswar"],
+      "timerBadge": "Ends in 03:45:00",
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    },
+    {
+      "id": "summer-finale-blowout",
+      "title": "SUMMER FINALE BLOWOUT - LAST CHANCE DEAL!",
+      "image": "./2nd-offer.png",
+      "alt": "Summer Finale Blowout Offer",
+      "price": 999,
+      "meta": "Season Ending Soon",
+      "locations": ["Bengaluru", "Kochi", "Hyderabad", "Chennai"],
+      "timerBadge": "Ends in 50:00:00",
+      "buttons": ["BOOK NOW", "VIEW DETAILS"],
+      "addToCart": { "label": "ADD TO CART", "href": "#cart-section" }
+    }
+  ],
+
+  "rides": [
+    {
+      "name": "CASTLE JET",
+      "location": "Kochi",
+      "image": "./ride1-image.png",
+      "alt": "Castle Jet",
+      "tags": [
+        "Fairy Tale Theme",
+        "Spinning Adventure"
+      ],
+      "description": "Meet Aladdin & his mysterious genie on a magical joyride!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "CONVOY",
+      "location": "Kochi",
+      "image": "./ride2-img.png",
+      "alt": "Convoy",
+      "tags": [
+        "Mini Vehicles",
+        "Hilly Track"
+      ],
+      "description": "Pick your favourite ride and go zooming over an exciting hilly terrain!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "FLYING JUMBO",
+      "location": "Kochi",
+      "image": "./ride3-i g.png",
+      "alt": "Flying Jumbo",
+      "tags": [
+        "Merry-Go-Round",
+        "Spinning Elephants"
+      ],
+      "description": "Climb aboard a friendly elephant that takes you on a playful spin!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "CAROUSEL",
+      "location": "Hyderabad",
+      "image": "./ride4-img.png",
+      "alt": "Carousel",
+      "tags": [
+        "Carousel",
+        "Galloping Horses"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "HAPPY KANGAROO",
+      "location": "Hyderabad",
+      "image": "./ride5-img.png",
+      "alt": "Happy Kangaroo",
+      "tags": [
+        "Free Fall",
+        "Bouncy Thrills"
+      ],
+      "description": "Plummet into a safe freefall with a tall & cheerful kangaroo!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "KIDDIES WHEEL",
+      "location": "Hyderabad",
+      "image": "./ride6-img.png",
+      "alt": "Kiddies Wheel",
+      "tags": [
+        "Mini Ferris",
+        "Scenic Fun"
+      ],
+      "description": "A miniature giant wheel designed to give your children a taste of real thrill without being half as scary.",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "MINI PIRATE SHIP",
+      "location": "Bengaluru",
+      "image": "./ride7-img.png",
+      "alt": "Mini Pirate Ship",
+      "tags": [
+        "Mini Boat",
+        "Gentle Swing"
+      ],
+      "description": "Climb aboard a friendly elephant that takes you on a playful spin!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "MAGIC PLANE",
+      "location": "Bengaluru",
+      "image": "./ride8-img.png",
+      "alt": "Magic Plane",
+      "tags": [
+        "Interactive Ride",
+        "Hang Glider"
+      ],
+      "description": "Climb aboard a friendly elephant that takes you on a playful spin!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "PONY TRAIN",
+      "location": "Bengaluru",
+      "image": "./ride9-img.png",
+      "alt": "Pony Train",
+      "tags": [
+        "Toy Train",
+        "Fantasy Ride"
+      ],
+      "description": "Climb aboard a friendly elephant that takes you on a playful spin!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "CROCO CRUISE",
+      "location": "Chennai",
+      "image": "./ride12-img.png",
+      "alt": "Croco Cruise",
+      "tags": [
+        "Crocodile Boats",
+        "Splash Adventure"
+      ],
+      "description": "A scenic journey on the back of a crocodile boat before descending in a big splash!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "CONVOY",
+      "location": "Chennai",
+      "image": "./ride13-img.png",
+      "alt": "Convoy",
+      "tags": [
+        "Mini Vehicles",
+        "Hilly Track"
+      ],
+      "description": "Pick your favourite ride and go zooming over an exciting hilly terrain!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "MINI WHEEL",
+      "location": "Chennai",
+      "image": "./ride14-img.png",
+      "alt": "Mini Wheel",
+      "tags": [
+        "Mini Ferris",
+        "Gentle Thrill"
+      ],
+      "description": "A miniature giant wheel designed to give your children a taste of real thrill without being half as scary.",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "CAROUSEL",
+      "location": "Chennai",
+      "image": "./ride14-img.png",
+      "alt": "Carousel",
+      "tags": [
+        "Carousel",
+        "Galloping Horses"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "RIDE DETAILS",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "PARK VIEW RESTAURANT",
+      "image": "./restaur-img1.webp",
+      "location": "Kochi",
+      "tags": [
+        "Traditional breakfast",
+        "Authentic flavours"
+      ],
+      "description": "Kickstart your day right with our delicious breakfast options at park view restaurant! From idlis....",
+      "button": "EXPLORE MENU",
+      "link": "./index8.html",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "WAVES RESTAURANT",
+      "image": "./restaur-img2.webp",
+      "location": "Kochi",
+      "tags": [
+        "Global flavours",
+        "Wave pool view"
+      ],
+      "description": "Enjoy global cuisines with a stunning wave pool view while you dine.",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "SPICE GARDEN RESTAURANT",
+      "image": "./restaur-img3.webp",
+      "location": "Kochi",
+      "tags": [
+        "Authentic taste",
+        "World cuisine"
+      ],
+      "description": "A garden dining experience with authentic spices and world-class cuisine.",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "VINTAGE KITCHEN RESTAURANT",
+      "image": "./restaur-img4.webp",
+      "location": "Kochi",
+      "tags": [
+        "Multi-cuisine",
+        "Exquisite dishes"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "PARK VIEW RESTAURANT",
+      "image": "./restaur-img5.webp",
+      "location": "Hyderabad",
+      "tags": [
+        "Traditional breakfast",
+        "Authentic flavours"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "GREEN RESTAURANT",
+      "image": "./restaur-img6.webp",
+      "location": "Hyderabad",
+      "tags": [
+        "Vegetarian delights",
+        "Indian & Chinese"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "CHILLIES RESTAURANT",
+      "image": "./restaur-img7.webp",
+      "location": "Hyderabad",
+      "tags": [
+        "Quick snacks",
+        "Heartwarming meals"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "COURTYARD RESTAURANT",
+      "image": "./restaur-img8.webp",
+      "location": "Hyderabad",
+      "tags": [
+        "Indian & Oriental",
+        "Fusion feast"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "CHILLIES RESTAURANT",
+      "image": "./restaur-img9.webp",
+      "location": "Bengaluru",
+      "tags": [
+        "Quick bites",
+        "Hearty meals"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "GALAXY AC RESTAURANT",
+      "image": "./restaur-img10.png",
+      "location": "Bengaluru",
+      "tags": [
+        "Buffet",
+        "Veg & Non-Veg"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "BIRYANI ZONE",
+      "image": "./restaur-img11.png",
+      "location": "Bengaluru",
+      "tags": [
+        "Spicy rice",
+        "Indian cuisine"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "MIRCHI MASALA",
+      "image": "./restaur-img12.png",
+      "location": "Bengaluru",
+      "tags": [
+        "Desi flavors",
+        "Tandoori specials"
+      ],
+      "description": "Gallop around on colourful horses like a seasoned cowboy!",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "FOOD COURT",
+      "image": "./restaur-img13.png",
+      "location": "Chennai",
+      "tags": [
+        "Veg & Non Veg Pizza",
+        "Chinese"
+      ],
+      "description": "Dive into an immersive Galactic dining experience at Galaxy, our signature space themed Buffet restaurant.",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "PORIYAL RESTAURANT",
+      "image": "./restaur-img14.png",
+      "location": "Chennai",
+      "tags": [
+        "Veg Meals",
+        "Dosa"
+      ],
+      "description": "A potpourri of Chinese, Indian, Tandoor, South Indian, Pizzas, Burgers, Shawarma, Beverages served via live stations.",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "GALAXY BUFFET RESTAURANT",
+      "image": "./restaur-img15.png",
+      "location": "Chennai",
+      "tags": [
+        "Veg & Non-Veg Unlimited Buffet"
+      ],
+      "description": "Indulge in our exclusive South Indian vegetarian only fare situated in our Food Court.",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    },
+    {
+      "name": "BIRYANI ZONE",
+      "image": "./restaur-img16.png",
+      "location": "Chennai",
+      "tags": [
+        "Veg & Non Veg",
+        "DINDIGUL, AMBUR"
+      ],
+      "description": "Authentic Biryani fare ranging from Dindigul, Ambur to the famed Hyderabadi Dum Biryani all prepared fresh & served hot.",
+      "button": "EXPLORE MENU",
+      "link": "#",
+      "addToCart": {
+        "label": "ADD TO CART",
+        "href": "#cart-section"
+      }
+    }
+  ],
+  "restaurantDetails": {
+    "name": "WAVES RESTAURANT",
+    "location": "Kochi",
+    "tags": [
+      "Kochi",
+      "Non-Veg"
+    ],
+    "description": "Indulge in a culinary adventure at Waves Restaurant, where every meal is a celebration of flavor and variety! Located right by the wave pool, enjoy everything from aromatic Biryani to Chinese delicacies while soaking in the poolside vibe.",
+    "gallery": {
+      "main": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
+      "thumbnails": [
+        "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=200",
+        "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=200",
+        "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=200"
+      ]
+    },
+    "buttons": [
+      "VIEW MENU",
+      "INQUIRE"
+    ],
+    "specialDishes": [
+      {
+        "name": "Chicken Biryani",
+        "image": "./chicken-biryani.png",
+        "alt": "Biryani"
+      },
+      {
+        "name": "Veg Healthy Bowl",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=300",
+        "alt": "Salad"
+      },
+      {
+        "name": "Gobi Fried Rice",
+        "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=300",
+        "alt": "Noodles"
+      }
+    ]
+  },
+  "certificates": [
+    {
+      "title": "Tourism Innovation",
+      "image": "./certificate1-im.png",
+      "alt": "Award 1",
+      "description": "Wonderla Holidays Ltd. Hyderabad has been felicitated with the Award of Excellence in 'Best Innovative Tourism Product' by the Department of Tourism, Telangana in 2023."
+    },
+    {
+      "title": "Promotional Success",
+      "image": "./certifi2-img.png",
+      "alt": "Award 2",
+      "description": "Wonderla Hyderabad has been proudly felicitated as the winner of Innovative Promotional Activity through Media - Print (Tier 1 cities) by IAAPI National Awards for Excellence 2016-17."
+    },
+    {
+      "title": "Travel Recognition",
+      "image": "./certifi3-img.png",
+      "alt": "Award 3",
+      "description": "Wonderla Parks and Resorts has been awarded a Certificate of Appreciation by the India International Travel Mart at Hyderabad in 2021."
+    },
+    {
+      "title": "Event Runner Up",
+      "image": "./certifi4-img.png",
+      "alt": "Award 4",
+      "description": "Wonderla Holidays Limited - Hyderabad has been declared the Runner-Up in the Event at your Facility category at the IAAPI National Awards for Excellence 2023."
+    },
+    {
+      "title": "HR Excellence",
+      "image": "./certifi5-img.png",
+      "alt": "Award 5",
+      "description": "Wonderla Hyderabad has been declared the Runner-Up in Best HR Practices (Tier 1 cities) at the IAAPI National Awards for Excellence 2016-17."
+    },
+    {
+      "title": "Sustainability & Safety Certified",
+      "image": "./certifi6-img.png",
+      "alt": "Award 6",
+      "description": "Wonderla Kochi conforms to ISO 14001:2015 and ISO 45001:2018 standards, reflecting our commitment to sustainable practices and safety standards."
+    }
+  ],
+  "safetyCards": [
+    {
+      "text": "Equipped with advanced safety technology.",
+      "image": "./icon-img1.webp"
+    },
+    {
+      "text": "Compliant with global regulations.",
+      "image": "./icon-img2.png"
+    },
+    {
+      "text": "Regular inspections & maintenance by skilled technicians.",
+      "image": "./icon-img3.png"
+    },
+    {
+      "text": "Extensive trials and continuous monitoring.",
+      "image": "./icon-img4.png"
+    },
+    {
+      "text": "24x7 fully operational emergency response systems.",
+      "image": "./icon-img5.png"
+    },
+    {
+      "text": "Staff undergo regular & up-to-date training.",
+      "image": "./icon-img6.png"
+    }
+  ],
+  "experienceCards": [
+    {
+      "title": "Park",
+      "description": "Experience the wonder of Wonderla, India's premier amusement park chain.",
+      "image": "./expr-img1.png"
+    },
+    {
+      "title": "Resort",
+      "description": "Experience the luxurious atmosphere at the Wonderla Resort.",
+      "image": "./expr-img2.png"
+    }
+  ],
+  "adventureCards": [
+    {
+      "title": "Corporates",
+      "image": "./caourosel-img1.png",
+      "alt": "Corporates",
+      "description": "Exclusive corporate bookings for team outings at Wonderla.",
+      "button": "KNOW MORE"
+    },
+    {
+      "title": "Colleges",
+      "image": "./caourosel-img2.png",
+      "alt": "Colleges",
+      "description": "Exciting group bookings for college trips at Wonderla.",
+      "button": "KNOW MORE"
+    },
+    {
+      "title": "Schools",
+      "image": "./caourosel-img3.png",
+      "alt": "Schools",
+      "description": "Special school bookings for fun and learning at Wonderla.",
+      "button": "KNOW MORE"
+    },
+    {
+      "title": "Large Group",
+      "image": "./caourosel-img4.png",
+      "alt": "Large Group",
+      "description": "Special group bookings for fun and learning at Wonderla.",
+      "button": "KNOW MORE"
+    }
+  ],
+  "events": {
+    "title": "EVENT MANIA",
+    "message": "The adventure of events is on pause for now, but keep your seatbelts fastened - we'll be back with thrilling events soon!"
+  },
+  "carts": {
+    "offers": {
+      "id": "cart-section",
+      "title": "Your Ticket Cart",
+      "subtitle": "Review your selected offers and combos before checkout.",
+      "items": [
+        {
+          "name": "Summer Early Bird Ticket",
+          "image": "./2nd-offer.png",
+          "meta": "Bengaluru · Valid till 31st March",
+          "quantity": 2,
+          "price": "₹2,998"
+        },
+        {
+          "name": "Birthday Offer — Buy 1 Get 1",
+          "image": "./5th-offer.png",
+          "meta": "Kochi · 1 combo pack",
+          "quantity": 1,
+          "price": "₹1,499"
+        }
+      ],
+      "summary": {
+        "items": "Items (3)",
+        "itemsTotal": "₹4,497",
+        "discount": "− ₹500",
+        "taxes": "₹0",
+        "total": "₹3,997"
+      },
+      "checkoutButton": "CHECKOUT",
+      "floatCartCount": 2,
+      "subtotal": "₹3,997"
+    },
+    "rides": {
+      "id": "cart-section",
+      "title": "Your Ride Pass Cart",
+      "subtitle": "Add day passes and fast-track bands for your favourite rides.",
+      "items": [
+        {
+          "name": "Day Pass — Adult",
+          "image": "./ride1-image.png",
+          "meta": "Kochi · All rides included",
+          "quantity": 2,
+          "price": "₹3,198"
+        },
+        {
+          "name": "Fast Track Band",
+          "image": "./ride2-img.png",
+          "meta": "Skip the queue on 5 rides",
+          "quantity": 1,
+          "price": "₹899"
+        }
+      ],
+      "summary": {
+        "dayPasses": "Day Passes (2)",
+        "dayPassesTotal": "₹3,198",
+        "fastTrack": "Fast Track (1)",
+        "fastTrackTotal": "₹899",
+        "total": "₹4,097"
+      },
+      "checkoutButton": "CHECKOUT",
+      "floatCartCount": 2,
+      "subtotal": "₹4,097"
+    },
+    "restaurants": {
+      "id": "cart-section",
+      "title": "Your Food Cart",
+      "subtitle": "Pre-order meals and combos from Wonderla restaurants.",
+      "items": [
+        {
+          "name": "Park View — South Indian Breakfast",
+          "image": "./restaur-img1.webp",
+          "meta": "Kochi · Idli, dosa & filter coffee",
+          "quantity": 2,
+          "price": "₹598"
+        },
+        {
+          "name": "Waves — Veg Meal Combo",
+          "image": "./restaur-img2.webp",
+          "meta": "Kochi · Rice, curry, dessert",
+          "quantity": 1,
+          "price": "₹349"
+        },
+        {
+          "name": "Chillies — Wonder Sundae",
+          "image": "./restaur-img7.webp",
+          "meta": "Hyderabad · Ice cream dessert",
+          "quantity": 1,
+          "price": "₹199"
+        }
+      ],
+      "summary": {
+        "breakfast": "Breakfast (2)",
+        "breakfastTotal": "₹598",
+        "mealCombo": "Meal Combo (1)",
+        "mealComboTotal": "₹349",
+        "dessert": "Dessert (1)",
+        "dessertTotal": "₹199",
+        "total": "₹1,146"
+      },
+      "checkoutButton": "CHECKOUT",
+      "floatCartCount": 3,
+      "subtotal": "₹1,146"
+    }
+  },
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Can I transfer my ticket to someone else, in case I bought the ticket a few days ago and I am not interested anymore?",
+      "answer": "We're sorry, tickets once booked cannot be transferred since the ID proof has to be validated at the entrance. But in the case of an unavoidable circumstance, if you cannot be personally present with your friends/family, then your original photo identity proof as well as the ticket confirmation email/SMS must be presented at the entrance."
+    },
+    {
+      "id": "faq-2",
+      "question": "Is it possible to refund/cancel/reschedule a ticket purchased under special offers?",
+      "answer": "Tickets purchased under special offers cannot be refunded and the ticket is valid only for selected date of visit."
+    },
+    {
+      "id": "faq-3",
+      "question": "Is the entry ticket inclusive of all the rides inside the park?",
+      "answer": "Yes! Once you're in, you can go on any ride as many times as you like."
+    },
+    {
+      "id": "faq-4",
+      "question": "Do you accept card or UPI payments like GPay, PhonePe, PayTM, etc.?",
+      "answer": "Yes, you can pay by card at our ticket counters as well as our restaurants. We also accept payments made through UPI wallets."
+    }
+  ],
+  "footer": {
+    "tagline": "We dream of creating a world of thrilling experience that bring endless joy to adventure of all age groups!",
+    "newsletter": {
+      "title": "Stay Looped Into Fun & Thrills",
+      "placeholder": "Enter email address",
+      "button": "Subscribe To Our NewsLetter"
+    },
+    "social": [
+      {
+        "platform": "Instagram",
+        "href": "https://www.instagram.com/wonderla_in/"
+      },
+      {
+        "platform": "X",
+        "href": "https://x.com/Wonder_La"
+      },
+      {
+        "platform": "YouTube",
+        "href": "https://www.youtube.com/@wonderla_in/featured"
+      },
+      {
+        "platform": "Facebook",
+        "href": "https://www.facebook.com/Wonderla?mibextid=ZbWKwL"
+      }
+    ],
+    "craftedBy": {
+      "label": "Crafted with elegance by",
+      "logo": "https://www.wonderla.com/_next/static/media/3MD-logo.66477985.svg?w=48&q=75",
+      "name": "Minds Digital"
+    }
+  },
+  "pages": {
+    "index6.html": "home",
+    "index.html": "login",
+    "registration.html": "registration",
+    "index2.html": "offers",
+    "index3.html": "rides",
+    "index4.html": "restaurants",
+    "index5.html": "events",
+    "index7.html": "booking",
+    "index8.html": "restaurantDetails"
+  }
+}
