@@ -37,7 +37,7 @@ function LoadUserDetails(){
   document.querySelector(".logout-btn").addEventListener("click", function (e) {
     e.preventDefault();
     localStorage.removeItem("loggedUser"); 
-    window.location.href = "/index.html";
+    window.location.href = "./index.html";
 });
 
 document.addEventListener('DOMContentLoaded', () => {
