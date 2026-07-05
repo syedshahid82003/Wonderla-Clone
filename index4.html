@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wonderla Restaurants</title>
     <link rel="stylesheet" href="wonderla.css">
+    <link rel="stylesheet" href="responsive.css">
     <style>
+
            .cart-drawer.active{
             right: 0;
         }
@@ -14,67 +16,123 @@
             display: block;
         }
 #res-cont {
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
+    width: 92% !important;
+    max-width: 1200px !important;
+    margin: 30px auto !important;
+    align-items: stretch !important;
 }
-
 
 .product-card {
-    height:520px;
+    /* height: auto !important; */
+    /* min-height: 480px !important; */
+    display: flex !important;
+    flex-direction: column !important;
+    /* background: white !important; */
+    border-radius: 12px !important;
+    /* overflow: hidden !important; */
+    /* border: 1px solid #e0e4f0 !important; */
+     box-shadow: 0 4px 14px rgba(228, 225, 225, 0.07) !important; 
 }
-
 
 .rest-card {
-    height:100%;
-    display:flex;
-    flex-direction:column;
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 1 !important;
+    height: auto !important;
 }
-
 
 .image-wrapper {
-    height:200px;
-    flex-shrink:0;
+    height: 190px !important;
+    flex-shrink: 0 !important;
+    overflow: hidden !important;
 }
-
 
 .image-wrapper img {
-    width:100%;
-    height:100%;
-    object-fit:cover;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
 }
 
-
+/* content fills space, pushes buttons to bottom */
 .content {
-    flex:1;
-    display:flex;
-    flex-direction:column;
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 12px !important;
+    gap: 6px !important;
 }
-
+.content h3 {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    min-height: 36px !important;
+    line-height: 1.3 !important;
+    margin: 0 !important;
+}
+.content .location { font-size: 12px !important; margin: 0 !important; }
+.content .description {
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+    flex: 1 !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+}
 
 .tags {
-    margin-top:auto;
+    margin-top: auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 4px !important;
 }
+.tags span { font-size: 10px !important; padding: 3px 7px !important; }
 
-
+/* buttons equal, always at bottom */
 .details-btn,
 .btn-add-cart {
-    width: 100%;
-    height: 40px;
+    width: 100% !important;
+    height: 38px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    box-sizing: border-box !important;
+    border: none !important;
+    margin-top: 4px !important;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* tablet: 2 columns */
+@media (max-width: 860px) {
+    #res-cont {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 16px !important;
+        width: 94% !important;
+    }
+    .product-card { min-height: 440px !important; }
+    .image-wrapper { height: 170px !important; }
+}
 
-    text-align: center;
-
-    border-radius: 5px;
-    font-size: 0.85rem;
-    font-weight: 600;
-
-    text-decoration: none;
-    cursor: pointer;
-    box-sizing: border-box;
+/* mobile: 1 column */
+@media (max-width: 560px) {
+    #res-cont {
+        grid-template-columns: 1fr !important;
+        gap: 14px !important;
+        width: 92% !important;
+    }
+    .product-card { min-height: auto !important; }
+    .image-wrapper { height: 200px !important; }
+    .content h3 { font-size: 15px !important; }
+    .content .description { -webkit-line-clamp: 4 !important; font-size: 13px !important; }
+    .details-btn, .btn-add-cart { height: 42px !important; font-size: 13px !important; }
 }
 
 .cart-item-header {
