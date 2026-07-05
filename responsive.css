@@ -1212,3 +1212,58 @@ img, video { max-width: 100%; }
         max-height: 260px !important;
     }
 }
+
+
+/* =====================================================
+   WONDERLA MERCH — 6 equal cards, images fill card
+   ===================================================== */
+
+.inside-bc-res .costume-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 14px !important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+.inside-bc-res .costume-card {
+    border-radius: 14px !important;
+    overflow: hidden !important;
+    aspect-ratio: 4 / 5 !important;       /* all cards same proportions */
+    height: auto !important;
+    min-height: 0 !important;
+    background: #e8eeff !important;
+}
+
+.inside-bc-res .costume-card img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    border-radius: 0 !important;
+}
+
+/* Tablet: 2 columns */
+@media (max-width: 768px) {
+    .inside-bc-res .costume-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+    }
+}
+
+/* Mobile: 2 columns still — compact */
+@media (max-width: 480px) {
+    .inside-bc-res .costume-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+    }
+    .inside-bc-res { padding: 30px 4% !important; }
+}
+
+/* Very small: 1 column */
+@media (max-width: 340px) {
+    .inside-bc-res .costume-grid {
+        grid-template-columns: 1fr !important;
+    }
+}

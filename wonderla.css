@@ -6033,3 +6033,35 @@ html, body {
         position: static;
     }
 }
+
+
+/* ── CREATE ACCOUNT LINK — always visible on login page ── */
+.create-account-link {
+    text-align: center;
+    margin-top: 16px;
+    padding: 14px 20px;
+    background: #f0f4ff;
+    border-radius: 12px;
+    border: 1px solid #d0daff;
+}
+
+.create-account-link p {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+    font-weight: 500;
+}
+
+.create-account-link a {
+    color: #334DCF;
+    font-weight: 800;
+    text-decoration: none;
+    border-bottom: 2px solid #334DCF;
+    padding-bottom: 1px;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+.create-account-link a:hover {
+    color: #1a2942;
+    border-bottom-color: #ffd400;
+}
